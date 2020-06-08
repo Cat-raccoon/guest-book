@@ -29,14 +29,18 @@ h2.heading{
 .userInfo{
     padding-left: 60px;
 }
-
+.mark{
+    border: solid 2px ;
+}
 .options{
-    margin-left: 800px;
+    margin-left: 880px;
     width: 15%;
+}
+.data-faeld{
+    background: #778B87;
 }
 
 .date{
     text-align: right;
-    color: #778B87;
-    
+    color: #778B87;  
 }
