@@ -1,23 +1,18 @@
 
-/* div.reviewForm{
-    margin-left: 500px;
-    margin-right: 500px;
-    border: solid 3px black;
-    padding: 8px;
-}
-input#username{
-    margin-left: 12px;
-} */
+
 div.content{
     border: solid 3px black;
     width: 80%;
     margin: 20px auto;
-    padding: 20px;
-    padding-top: 0;
+    padding: 0 20px;
+    /* padding-top: 0; */
 }
 
 input, textarea {
     width: 100%;
+    box-sizing: border-box;
+    margin: 8px 0;
+    display: inline-block;
 }
 
 h2.heading{
@@ -27,11 +22,7 @@ h2.heading{
     margin-top: 0;
     
 }
-/* div.content{
-    border: solid 3px black;
-    border-top: #fff;
-    padding: 5px;
-} */
+
 .header-review{
     position: absolute;
 }
