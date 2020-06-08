@@ -1,8 +1,18 @@
 
-table.form{
+div.reviewForm{
+    position: relative;
+    margin-left: 500px;
+    margin-right: 500px;
     border: solid 3px black;
-    padding: 5px;
+    padding: 8px;
 }
+input#username{
+    margin-left: 12px;
+}
+#btn{
+    
+}
+
 h2.heading{
     text-align: center;
     background: black;
@@ -10,25 +20,24 @@ h2.heading{
     padding: 10px;
     margin-bottom: 0;
 }
-table.content{
+div.content{
     border: solid 3px black;
     border-top: #fff;
     padding: 5px;
 }
-.content td{   
-    border-bottom: solid 2px #778B87;
+.header-review{
+    position: absolute;
 }
-.options{
+.userInfo{
+    padding-left: 60px;
+}
+
+/* .options{
     text-align: right;
     padding: 8px;
-}
-td.review{
-    border: none;
-}
-td.review-content{
-    border: none;
-}
-.date{
+} */
+
+/* .date{
     text-align: right;
     color: #778B87;
-}
+} */
