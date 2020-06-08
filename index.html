@@ -8,7 +8,8 @@
 </head>
 <body>
     
-    <div class="reviewForm">
+    <div class="content">
+        <h2 class="heading">Гостевая книга отзывов</h2>
         <form id="review-Form" name="reviewForm" action="">
     
         <label for="username">Имя:</label>
@@ -19,15 +20,17 @@
             <br><br>
         <label for="message">Отзыв:</label>
             <br><br>
-        <textarea name="message" id="message" cols="43" rows="7" placeholder="Ваш очень важный отзыв..."></textarea>
+        <textarea name="message" id="message" cols="40" rows="7" placeholder="Ваш очень важный отзыв..."></textarea>
             <br>
         <input id="btn" type="submit" value="Отправить">
     
         </form>
-    </div>
-<br><br>
+    
+<br>
+<hr>
+<br>
 
-<h2 class="heading">Гостевая книга отзывов</h2>
+
 
     <!-- остатки от таблицы -->
     <!-- <td colspan="3" class="options">
@@ -36,7 +39,7 @@
     </td> -->
 
 
-    <div class="content">
+    
         <div class="header-review">
             <p class="name">Имя: </p>
             <hr>
@@ -44,6 +47,7 @@
             <hr>
             <p class="review">Отзыв: </p>
         </div>
+
         <div class="userInfo">
             <p class="username">Jhony</p>
             
@@ -55,7 +59,13 @@
                 Хоть он и тестовый, всё-равно он очень важен.Очень важный и длинный отзыв. 
                 Хоть он и тестовый, всё-равно он очень важен.Очень важный и длинный отзыв. 
                 Хоть он и тестовый, всё-равно он очень важен.</p>
+                <p class="date">04.05.2019</p>
+                <input class="options" id="addit-btn" type="button" value="Редактировать">
+                <br>
+                <input class="options" id="delete-btn" type="button" value="Удалить">
         </div>
+        <hr>
+        
 
 
 
