@@ -23,21 +23,38 @@ h2.heading{
     
 }
 
-.header-review{
-    position: absolute;
-}
 .userInfo{
     padding-left: 60px;
 }
 .mark{
     border: solid 2px ;
+    width: 100%;
 }
 .options{
-    margin-left: 880px;
+    margin-left: 80%;
     width: 15%;
 }
 .data-faeld{
     background: #778B87;
+}
+.standard{
+    margin: 0;
+    float: left;
+    display: block;
+    text-align: right;
+    background: #778B87;
+    border-right: solid;
+}
+.value{
+    margin: 0;
+    padding: 0 2px;
+    float: left;
+    text-align: left;
+    display: block;
+    background: #778B87;
+}
+.review{
+    display: inline-block;
 }
 
 .date{
