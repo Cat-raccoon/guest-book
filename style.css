@@ -35,14 +35,14 @@ h2.heading{
     width: 15%;
 }
 .data-faeld{
-    background: #778B87;
+    background: #95ada8;
 }
 .standard{
     margin: 0;
     float: left;
     display: block;
     text-align: right;
-    background: #778B87;
+    background: #c1d3cf;
     border-right: solid;
 }
 .value{
@@ -51,7 +51,7 @@ h2.heading{
     float: left;
     text-align: left;
     display: block;
-    background: #778B87;
+    background: #c1d3cf;
 }
 .review{
     display: inline-block;
