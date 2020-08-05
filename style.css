@@ -1,10 +1,14 @@
-
+body{
+    background: #889592;
+}
 
 div.content{
     border: solid 3px black;
+    border-radius: 2px;
     width: 80%;
     margin: 20px auto;
     padding: 0 20px;
+    background: #cec4aa;
     /* padding-top: 0; */
 }
 
@@ -37,21 +41,15 @@ h2.heading{
 .data-faeld{
     background: #95ada8;
 }
-.standard{
-    margin: 0;
-    float: left;
-    display: block;
-    text-align: right;
-    background: #c1d3cf;
-    border-right: solid;
-}
+
 .value{
     margin: 0;
     padding: 0 2px;
     float: left;
     text-align: left;
     display: block;
-    background: #c1d3cf;
+    background: #889592;
+    border-right: solid;
 }
 .review{
     display: inline-block;
