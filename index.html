@@ -22,7 +22,7 @@
          
         <textarea name="message" id="message" cols="40" rows="7" placeholder="Your message..."></textarea>
             
-        <input id="btn" type="submit" value="Submit">
+        <input id="btn" type="submit" value="Create">
     
         </form>  
 
@@ -30,13 +30,16 @@
 
         <div id="comment">
            
-            <div class="value">
-                <p class="username">Jhony</p>
+            <div class="information">
 
+                <p class="username">Jhony</p>
                 <p class="usermail">pochta@gmail.com</p>
+                <p class="date">2019-5-12</p>
+
             </div>
             
-            <div id="review">
+
+            <div class="review">
 
                 <p class="review-content">Very important text. Very important text. Very important text.
                 Very important text. Very important text. Very important text. Very important text.
@@ -46,16 +49,20 @@
                 Very important text. Very important text. Very important text. Very important text.
                 Very important text.
                 </p>
-                <p class="date">04.05.2019</p>
-                <input class="options" id="edit-btn" type="button" value="Edit">
-                <br>
-                <input class="options" id="delete-btn" type="button" value="Delete">
-                <hr class="mark">
+
             </div>
             
-        </div>
-        
-        </div>
+            <div class="buttons">
+
+                <button class="edit" onclick="">Edit</button>
+    
+                <button class="delete" onclick="delFunction()">Delete</button>
+                <hr class="mark">
+
+            </div>
+            
+        </div>         
+   
         
 
 
