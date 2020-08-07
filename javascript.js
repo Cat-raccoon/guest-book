@@ -5,52 +5,60 @@ function delFunction() {
 
 }
 
-var reviews = [1, 2, 3, 4, 5];
+var reviews = [
+    {"username":"Frodo Bagins", "usermail":"shiir@gmail.com", "date":"2019-5-13", "reviewContent":"Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text."},
+    {"username":"Vladimir Putin", "usermail":"russian-bear@gmail.com", "date":"2020-3-10", "reviewContent":"Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text."},
+    {"username":"Petro Poroshenko", "usermail":"chocolate_king@gmail.com", "date":"2020-3-11", "reviewContent":"Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text."},
+    {"username":"Harry Potter", "usermail":"qvidichmaster@gmail.com", "date":"2020-5-5", "reviewContent":"Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text."},
+    {"username":"Sam Smit", "usermail":"samuel@gmail.com", "date":"2020-5-7", "reviewContent":"Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text."}
+];
 
-var review1 = new Object();
+// var reviews = [1, 2, 3, 4, 5];
 
-    review1.username = "Frodo Bagins";
-    review1.usermail = "shiir@gmail.com";
-    review1.date = "2019-5-13";
-    review1.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
+// var review1 = new Object();
 
-reviews[0] = review1;
+//     review1.username = "Frodo Bagins";
+//     review1.usermail = "shiir@gmail.com";
+//     review1.date = "2019-5-13";
+//     review1.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
 
-var review2 = new Object();
+// reviews[0] = review1;
 
-    review2.username = "Sam Smit";
-    review2.usermail = "samuel@gmail.com";
-    review2.date = "2020-5-7";
-    review2.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
+// var review2 = new Object();
 
-reviews[1] = review2;
+//     review2.username = "Vladimir Putin";
+//     review2.usermail = "russian-bear@gmail.com";
+//     review2.date = "2020-3-10";
+//     review2.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
 
-var review3 = new Object();
+// reviews[1] = review2;
 
-    review3.username = "Sam Smit";
-    review3.usermail = "samuel@gmail.com";
-    review3.date = "2020-5-7";
-    review3.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
+// var review3 = new Object();
 
-reviews[2] = review3;
+//     review3.username = "Petro Poroshenko";
+//     review3.usermail = "chocolate_king@gmail.com";
+//     review3.date = "2020-3-11";
+//     review3.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
 
-var review4 = new Object();
+// reviews[2] = review3;
 
-    review4.username = "Sam Smit";
-    review4.usermail = "samuel@gmail.com";
-    review4.date = "2020-5-7";
-    review4.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
+// var review4 = new Object();
 
-reviews[3] = review4;
+//     review4.username = "Harry Potter";
+//     review4.usermail = "qvidichmaster@gmail.com";
+//     review4.date = "2020-5-5";
+//     review4.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
 
-var review5 = new Object();
+// reviews[3] = review4;
 
-    review5.username = "Sam Smit";
-    review5.usermail = "samuel@gmail.com";
-    review5.date = "2020-5-7";
-    review5.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
+// var review5 = new Object();
 
-reviews[4] = review5;
+//     review5.username = "Sam Smit";
+//     review5.usermail = "samuel@gmail.com";
+//     review5.date = "2020-5-7";
+//     review5.reviewContent = "Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text.";
+
+// reviews[4] = review5;
 
 
 
