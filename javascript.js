@@ -13,8 +13,44 @@ var reviews = [
     {username:"Sam Smit", usermail:"samuel@gmail.com", date:"2020-5-7", reviewID:"111115", reviewContent:"Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text."}
 ];
 
-var com = reviews;
-for (i=0; i < reviews.length; i++) {
-    console.log(reviews[i]);
-}
+// var com = reviews;
+// for (i=0; i < reviews.length; i++) {
+//     console.log(reviews[i]);
+// }
 
+var comments = document.getElementById("comments");
+
+var newCom = "iv class="comment">
+           
+                <div class="information">
+
+                    <p class="username">Jhony</p>
+                    <p class="usermail">pochta@gmail.com</p>
+                    <p class="date">2019-5-12</p>
+
+                </div>
+            
+
+                <div class="review">
+
+                    <p class="reviewContent">Very important text. Very important text. Very important text.
+                Very important text. Very important text. Very important text. Very important text.
+                Very important text. Very important text. Very important text. Very important text.
+                Very important text. Very important text. Very important text.  Very important text.
+                Very important text. Very important text. Very important text. Very important text.
+                Very important text. Very important text. Very important text. Very important text.
+                Very important text.
+                </p>
+
+                </div>
+            
+                <div class="buttons">
+
+                    <button class="edit" onclick="">Edit</button>
+    
+                    <button class="delete" onclick="delFunction()">Delete</button>
+                    <hr class="mark">
+
+                </div>
+            
+            </div>";
