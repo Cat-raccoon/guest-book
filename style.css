@@ -12,7 +12,7 @@ body{
     box-shadow: none;
 }
 
-div.content{
+div#content{
     border: solid 3px #EFEFEF;
     border-radius: 2px;
     width: 80%;

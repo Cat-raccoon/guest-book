@@ -1,6 +1,6 @@
 function delFunction() {
 
-    var myObj = document.getElementById("comment");
+    var myObj = document.getElementsByClassName("comment");
     myObj.remove();
 
 }
@@ -13,4 +13,7 @@ var reviews = [
     {username:"Sam Smit", usermail:"samuel@gmail.com", date:"2020-5-7", reviewID:"111115", reviewContent:"Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text."}
 ];
 
+var newReview = document.createElement("div");
+
+var newInformation = document.createElement("div")
 
