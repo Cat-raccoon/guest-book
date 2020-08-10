@@ -1,6 +1,6 @@
 function delFunction() {
 
-    var myObj = document.getElementsByClassName("comment");
+    var myObj = document.getElementsByClassName("comment")[0];
     myObj.remove();
 
 }
