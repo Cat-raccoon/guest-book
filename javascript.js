@@ -13,10 +13,10 @@ var reviews = [
     {username:"Sam Smit", usermail:"samuel@gmail.com", date:"2020-5-7", reviewID:"111115", reviewContent:"Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text.  Very important text.Very important text. Very important text. Very important text. Very important text.Very important text. Very important text. Very important text. Very important text.Very important text."}
 ];
 
-// var com = reviews;
-// for (i=0; i < reviews.length; i++) {
-//     console.log(reviews[i]);
-// }
+var com = reviews;
+for (i=0; i < reviews.length; i++) {
+    console.log(reviews[i]);
+}
 
 var comments = document.getElementById("comments");
 
