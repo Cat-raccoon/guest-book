@@ -38,32 +38,51 @@ var newCom =
       '</div>' +
   '</div>';
 
- comments.innerHTML =
-  '<div class="comment"> ' +
-'<div class="information"> ' +
-      '<p class="username">Jhony</p>' +
-      '<p class="usermail">pochta@gmail.com</p>' +
-      '<p class="date">2019-5-12</p>' +
-  '</div>' +
-  '<div class="review">' +
-      '<p class="reviewContent">' +
-      'Very important text. Very important text. Very important text.Very important text. ' +
-      'Very important text. Very important text. Very important text.Very important text. Very important text. ' +
-      'Very important text. Very important text.Very important text. Very important text. Very important text.  ' +
-      'Very important text.Very important text. Very important text. Very important text. Very important text.' +
-      'Very important text. Very important text. Very important text. Very important text.Very important text.' +
-      '</p>' +
-  '</div>' +
-  '<div class="buttons">' +
-      '<button class="edit" onclick="">Edit</button>' +
-      '<button class="delete" onclick="delFunction()">Delete</button>' +
-      '<hr class="mark">' +
-  '</div>' +
-'</div>';
+//  comments.innerHTML =
+//   '<div class="comment"> ' +
+// '<div class="information"> ' +
+//       '<p class="username">Jhony</p>' +
+//       '<p class="usermail">pochta@gmail.com</p>' +
+//       '<p class="date">2019-5-12</p>' +
+//   '</div>' +
+//   '<div class="review">' +
+//       '<p class="reviewContent">' +
+//       'Very important text. Very important text. Very important text.Very important text. ' +
+//       'Very important text. Very important text. Very important text.Very important text. Very important text. ' +
+//       'Very important text. Very important text.Very important text. Very important text. Very important text.  ' +
+//       'Very important text.Very important text. Very important text. Very important text. Very important text.' +
+//       'Very important text. Very important text. Very important text. Very important text.Very important text.' +
+//       '</p>' +
+//   '</div>' +
+//   '<div class="buttons">' +
+//       '<button class="edit" onclick="">Edit</button>' +
+//       '<button class="delete" onclick="delFunction()">Delete</button>' +
+//       '<hr class="mark">' +
+//   '</div>' +
+// '</div>';
+var a = newCom;
 
 var com = reviews;
 for (i=0; i < reviews.length; i++) {
-    console.log(reviews[i]);
-    comments.innerHTML = newCom;
+    a = a + reviews[i];
 }
+
+console.log(a);
+
+comments.innerHTML = a;
+
+// var items = [
+//     'Hello',
+//     'my',
+//     'name',
+//     'is',
+//     'John',
+//     'Doe'
+//   ];
+//     var string = "";
+
+//   for (i=0; i < items.length; i++) {
+//       string = string + " " + items[i];
+//   }
+//   console.log(string);
 
