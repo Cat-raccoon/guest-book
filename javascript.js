@@ -60,14 +60,33 @@ var newCom =
 //       '<hr class="mark">' +
 //   '</div>' +
 // '</div>';
-var a = newCom;
+var a = "";
 
-var com = reviews;
+
 for (i=0; i < reviews.length; i++) {
-    a = a + reviews[i];
+    a = a + '<div class="comment"> ' +
+    '<div class="information"> ' +
+        '<p class="username">Jhony</p>' +
+        '<p class="usermail">pochta@gmail.com</p>' +
+        '<p class="date">2019-5-12</p>' +
+    '</div>' +
+    '<div class="review">' +
+        '<p class="reviewContent">' +
+        'Very important text. Very important text. Very important text.Very important text. ' +
+        'Very important text. Very important text. Very important text.Very important text. Very important text. ' +
+        'Very important text. Very important text.Very important text. Very important text. Very important text.  ' +
+        'Very important text.Very important text. Very important text. Very important text. Very important text.' +
+        'Very important text. Very important text. Very important text. Very important text.Very important text.' +
+        '</p>' +
+    '</div>' +
+    '<div class="buttons">' +
+        '<button class="edit" onclick="">Edit</button>' +
+        '<button class="delete" onclick="delFunction()">Delete</button>' +
+        '<hr class="mark">' +
+    '</div>' +
+'</div>';
 }
 
-console.log(a);
 
 comments.innerHTML = a;
 
